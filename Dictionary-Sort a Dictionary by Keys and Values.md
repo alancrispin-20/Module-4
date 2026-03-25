@@ -6,7 +6,7 @@ This Python program demonstrates how to sort a dictionary:
 
 ---
 
-## 🎯 Aim
+## 🎯 Aim :
 
 To write a Python program that sorts a dictionary's:
 - Keys in alphabetical order
@@ -14,7 +14,7 @@ To write a Python program that sorts a dictionary's:
 
 ---
 
-## 🧠 Algorithm
+## 🧠 Algorithm :
 
 1. **Start the program.**
 2. **Define** a dictionary with key-value pairs.
@@ -29,10 +29,19 @@ To write a Python program that sorts a dictionary's:
 
 ---
 
-## 🧪Program
-Add Code here
+## 🧪Program :
+ my_dict = {'b': 'banana', 'a': 'apple', 'd': 'date', 'c': 'cherry'}
 
-## Sample Output
+sorted_keys = dict(sorted(my_dict.items()))
 
-## Result
+sorted_values = dict(sorted(my_dict.items(), key=lambda item: item[1]))
 
+print("Sorted by keys:", sorted_keys)
+
+print("Sorted by values:", sorted_values)
+
+## Sample Output :
+<img width="728" height="52" alt="image" src="https://github.com/user-attachments/assets/acfa8855-0607-4192-93d9-84277938137f" />
+
+## Result :
+Thus the program is excuted and the output is obtained.
