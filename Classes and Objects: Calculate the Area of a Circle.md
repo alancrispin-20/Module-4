@@ -21,6 +21,7 @@ class cse:
 r = float(input("Enter radius: "))
 
 obj = cse()
+
 result = obj.mech(r)
 
 print("Area of circle:", result)
